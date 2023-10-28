@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cixbdsyybs1mb"
+path="res://.godot/imported/tile_slantHigh.obj-9da8bdace7dff5bd3860c408e0098e26.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tile_slantHigh.obj-9da8bdace7dff5bd3860c408e0098e26.mesh"]
+
+source_file="res://models/city models/road/tile_slantHigh.obj"
+dest_files=["res://.godot/imported/tile_slantHigh.obj-9da8bdace7dff5bd3860c408e0098e26.mesh", "res://.godot/imported/tile_slantHigh.obj-9da8bdace7dff5bd3860c408e0098e26.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

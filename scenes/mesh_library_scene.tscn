@@ -1,0 +1,264 @@
+[gd_scene load_steps=66 format=3 uid="uid://dhd8b8n4s4on6"]
+
+[ext_resource type="ArrayMesh" uid="uid://cbslc5de8twy6" path="res://models/city models/road/bridge_pillar.obj" id="1_i0glc"]
+[ext_resource type="ArrayMesh" uid="uid://bvjpgw0uoiwuu" path="res://models/city models/road/bridge_pillarWide.obj" id="2_bgmhv"]
+[ext_resource type="ArrayMesh" uid="uid://cnap0w0cd3qas" path="res://models/city models/road/construction_barrier.obj" id="3_c3tsv"]
+[ext_resource type="ArrayMesh" uid="uid://b8og74c1426oq" path="res://models/city models/road/construction_light.obj" id="4_ovxki"]
+[ext_resource type="ArrayMesh" uid="uid://xab0yq7m0ntm" path="res://models/city models/road/construction_pylon.obj" id="5_uasmx"]
+[ext_resource type="ArrayMesh" uid="uid://dl4th4iixgnk7" path="res://models/city models/road/light_curved.obj" id="6_acrwl"]
+[ext_resource type="ArrayMesh" uid="uid://64im70ivsojy" path="res://models/city models/road/light_curvedCross.obj" id="7_073av"]
+[ext_resource type="ArrayMesh" uid="uid://cdov48jgthgvo" path="res://models/city models/road/light_curvedDouble.obj" id="8_lfgxb"]
+[ext_resource type="ArrayMesh" uid="uid://dry8hnts2yn3l" path="res://models/city models/road/light_square.obj" id="9_cw662"]
+[ext_resource type="ArrayMesh" uid="uid://bt24pfcf4jrhj" path="res://models/city models/road/light_squareCross.obj" id="10_ewnh7"]
+[ext_resource type="ArrayMesh" uid="uid://dbxcouk55jedl" path="res://models/city models/road/light_squareDouble.obj" id="11_nr2g4"]
+[ext_resource type="ArrayMesh" uid="uid://hmnb0ptwuif3" path="res://models/city models/road/road_bend.obj" id="12_dym40"]
+[ext_resource type="ArrayMesh" uid="uid://x080amltqk2j" path="res://models/city models/road/road_bendBarrier.obj" id="13_b7dyk"]
+[ext_resource type="ArrayMesh" uid="uid://bx2rprqp2neha" path="res://models/city models/road/road_bendSidewalk.obj" id="14_rurbx"]
+[ext_resource type="ArrayMesh" uid="uid://cwk7ypg7v3aj6" path="res://models/city models/road/road_bendSquare.obj" id="15_trmph"]
+[ext_resource type="ArrayMesh" uid="uid://m6kvvmk5aqf7" path="res://models/city models/road/road_bendSquareBarrier.obj" id="16_5vg8j"]
+[ext_resource type="ArrayMesh" uid="uid://dcg78q4ecy23c" path="res://models/city models/road/road_bridge.obj" id="17_vvvx2"]
+[ext_resource type="ArrayMesh" uid="uid://cru58rmfloou6" path="res://models/city models/road/road_crossing.obj" id="18_ktobd"]
+[ext_resource type="ArrayMesh" uid="uid://bxondxw4ptcxy" path="res://models/city models/road/road_crossroad.obj" id="19_rc20b"]
+[ext_resource type="ArrayMesh" uid="uid://djx5efhf85smj" path="res://models/city models/road/road_crossroadBarrier.obj" id="20_qr4lx"]
+[ext_resource type="ArrayMesh" uid="uid://cgqsquqe23mxq" path="res://models/city models/road/road_crossroadLine.obj" id="21_8ifwm"]
+[ext_resource type="ArrayMesh" uid="uid://cphc1pursbicp" path="res://models/city models/road/road_crossroadPath.obj" id="22_ojd8m"]
+[ext_resource type="ArrayMesh" uid="uid://dclx78glsmker" path="res://models/city models/road/road_curve.obj" id="23_bx78g"]
+[ext_resource type="ArrayMesh" uid="uid://gi1ppgyke088" path="res://models/city models/road/road_curveBarrier.obj" id="24_xyiro"]
+[ext_resource type="ArrayMesh" uid="uid://c8atrvk0ykbox" path="res://models/city models/road/road_curveIntersection.obj" id="25_1vf84"]
+[ext_resource type="ArrayMesh" uid="uid://bgvgajircsocx" path="res://models/city models/road/road_curveIntersectionBarrier.obj" id="26_vgfjm"]
+[ext_resource type="ArrayMesh" uid="uid://brnc3kxn8lqv3" path="res://models/city models/road/road_curvePavement.obj" id="27_bqvew"]
+[ext_resource type="ArrayMesh" uid="uid://d0ygalehr75p7" path="res://models/city models/road/road_drivewayDouble.obj" id="28_yor8e"]
+[ext_resource type="ArrayMesh" uid="uid://dcfomedbboti4" path="res://models/city models/road/road_drivewayDoubleBarrier.obj" id="29_up1ue"]
+[ext_resource type="ArrayMesh" uid="uid://ccobfhdl37n6x" path="res://models/city models/road/road_drivewaySingle.obj" id="30_eii45"]
+[ext_resource type="ArrayMesh" uid="uid://c56h0q45da3h7" path="res://models/city models/road/road_drivewaySingleBarrier.obj" id="31_pxtvp"]
+[ext_resource type="ArrayMesh" uid="uid://bsuns6ukbiec4" path="res://models/city models/road/road_end.obj" id="32_ec64m"]
+[ext_resource type="ArrayMesh" uid="uid://dri7xgydww3bt" path="res://models/city models/road/road_endBarrier.obj" id="33_ljduw"]
+[ext_resource type="ArrayMesh" uid="uid://buva6f6vllpv2" path="res://models/city models/road/road_intersection.obj" id="34_n87id"]
+[ext_resource type="ArrayMesh" uid="uid://bamh5bmm0710j" path="res://models/city models/road/road_intersectionBarrier.obj" id="35_ktf6o"]
+[ext_resource type="ArrayMesh" uid="uid://c0jpkvy1icibo" path="res://models/city models/road/road_intersectionLine.obj" id="36_yr1ru"]
+[ext_resource type="ArrayMesh" uid="uid://b8dh4unfmwucn" path="res://models/city models/road/road_intersectionPath.obj" id="37_1524c"]
+[ext_resource type="ArrayMesh" uid="uid://b4ulxfka4rssg" path="res://models/city models/road/road_roundabout.obj" id="38_rsemd"]
+[ext_resource type="ArrayMesh" uid="uid://csk1or53do31m" path="res://models/city models/road/road_roundaboutBarrier.obj" id="39_8kk6k"]
+[ext_resource type="ArrayMesh" uid="uid://cbewuqynt2d1g" path="res://models/city models/road/road_side.obj" id="40_d4ogo"]
+[ext_resource type="ArrayMesh" uid="uid://cayg15c8pblvf" path="res://models/city models/road/road_sideBarrier.obj" id="41_gqkst"]
+[ext_resource type="ArrayMesh" uid="uid://dsvrt7v3tekj0" path="res://models/city models/road/road_sideEntry.obj" id="42_pgn1f"]
+[ext_resource type="ArrayMesh" uid="uid://brcrm24s3imhs" path="res://models/city models/road/road_sideEntryBarrier.obj" id="43_ky5ik"]
+[ext_resource type="ArrayMesh" uid="uid://be0yupq0b0if0" path="res://models/city models/road/road_sideExit.obj" id="44_4mmgq"]
+[ext_resource type="ArrayMesh" uid="uid://bmpf4n34ll3ti" path="res://models/city models/road/road_sideExitBarrier.obj" id="45_8ebjl"]
+[ext_resource type="ArrayMesh" uid="uid://bdaddhwgk5sqy" path="res://models/city models/road/road_slant.obj" id="46_t3es7"]
+[ext_resource type="ArrayMesh" uid="uid://bwsgaskawgc1e" path="res://models/city models/road/road_slantBarrier.obj" id="47_phfhe"]
+[ext_resource type="ArrayMesh" uid="uid://bq3bdpl80otly" path="res://models/city models/road/road_slantCurve.obj" id="48_tpo8s"]
+[ext_resource type="ArrayMesh" uid="uid://vmc51dbp7wh2" path="res://models/city models/road/road_slantCurveBarrier.obj" id="49_rfp2q"]
+[ext_resource type="ArrayMesh" uid="uid://ddym21firrt2b" path="res://models/city models/road/road_slantFlat.obj" id="50_gffaf"]
+[ext_resource type="ArrayMesh" uid="uid://dr34ndtqt4jhx" path="res://models/city models/road/road_slantFlatCurve.obj" id="51_ivde0"]
+[ext_resource type="ArrayMesh" uid="uid://d20tgmtmbfevl" path="res://models/city models/road/road_slantFlatHigh.obj" id="52_xhrpn"]
+[ext_resource type="ArrayMesh" uid="uid://dltay4omdlxe5" path="res://models/city models/road/road_slantHigh.obj" id="53_idxx1"]
+[ext_resource type="ArrayMesh" uid="uid://dj53agpyo1dwt" path="res://models/city models/road/road_slantHighBarrier.obj" id="54_mul2l"]
+[ext_resource type="ArrayMesh" uid="uid://deejwvyw5dkyu" path="res://models/city models/road/road_split.obj" id="55_ctthc"]
+[ext_resource type="ArrayMesh" uid="uid://cfe2sn7k4ryvr" path="res://models/city models/road/road_splitBarrier.obj" id="56_r01nu"]
+[ext_resource type="ArrayMesh" uid="uid://cnlvdv8u3n3cl" path="res://models/city models/road/road_square.obj" id="57_l1oxv"]
+[ext_resource type="ArrayMesh" uid="uid://co6f3772ro28n" path="res://models/city models/road/road_squareBarrier.obj" id="58_w56cq"]
+[ext_resource type="ArrayMesh" uid="uid://drp7faqe48rxi" path="res://models/city models/road/road_straight.obj" id="59_pq5hf"]
+[ext_resource type="ArrayMesh" uid="uid://ffywjn067y1f" path="res://models/city models/road/road_straightBarrier.obj" id="60_rybvo"]
+[ext_resource type="ArrayMesh" uid="uid://cskceyyr3gdtb" path="res://models/city models/road/road_straightBarrierEnd.obj" id="61_o41r6"]
+[ext_resource type="ArrayMesh" uid="uid://cus0gh1s63b4l" path="res://models/city models/road/tile_high.obj" id="62_ts44n"]
+[ext_resource type="ArrayMesh" uid="uid://dioeoh08dhq5g" path="res://models/city models/road/tile_low.obj" id="63_8b0ep"]
+[ext_resource type="ArrayMesh" uid="uid://ls7v4efj3yv" path="res://models/city models/road/tile_slant.obj" id="64_f3sig"]
+[ext_resource type="ArrayMesh" uid="uid://cixbdsyybs1mb" path="res://models/city models/road/tile_slantHigh.obj" id="65_1h4m0"]
+
+[node name="MeshLibraryScene" type="Node3D"]
+
+[node name="BridgePillar" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_i0glc")
+
+[node name="BridgePillarWide" type="MeshInstance3D" parent="."]
+mesh = ExtResource("2_bgmhv")
+
+[node name="ConstructionBarrier" type="MeshInstance3D" parent="."]
+mesh = ExtResource("3_c3tsv")
+
+[node name="ConstructionLight" type="MeshInstance3D" parent="."]
+mesh = ExtResource("4_ovxki")
+
+[node name="ConstructionPylon" type="MeshInstance3D" parent="."]
+mesh = ExtResource("5_uasmx")
+
+[node name="LightCurved" type="MeshInstance3D" parent="."]
+mesh = ExtResource("6_acrwl")
+
+[node name="LightCurvedCross" type="MeshInstance3D" parent="."]
+mesh = ExtResource("7_073av")
+
+[node name="LightCurvedDouble" type="MeshInstance3D" parent="."]
+mesh = ExtResource("8_lfgxb")
+
+[node name="LightSquare" type="MeshInstance3D" parent="."]
+mesh = ExtResource("9_cw662")
+
+[node name="LightSquareCross" type="MeshInstance3D" parent="."]
+mesh = ExtResource("10_ewnh7")
+
+[node name="LightSquareDouble" type="MeshInstance3D" parent="."]
+mesh = ExtResource("11_nr2g4")
+
+[node name="RoadBend" type="MeshInstance3D" parent="."]
+mesh = ExtResource("12_dym40")
+
+[node name="RoadBendBarrier" type="MeshInstance3D" parent="."]
+mesh = ExtResource("13_b7dyk")
+
+[node name="RoadBendSidewalk" type="MeshInstance3D" parent="."]
+mesh = ExtResource("14_rurbx")
+
+[node name="RoadBendSquare" type="MeshInstance3D" parent="."]
+mesh = ExtResource("15_trmph")
+
+[node name="RoadBendSquareBarrier" type="MeshInstance3D" parent="."]
+mesh = ExtResource("16_5vg8j")
+
+[node name="RoadBridge" type="MeshInstance3D" parent="."]
+mesh = ExtResource("17_vvvx2")
+
+[node name="RoadCrossing" type="MeshInstance3D" parent="."]
+mesh = ExtResource("18_ktobd")
+
+[node name="RoadCrossroad" type="MeshInstance3D" parent="."]
+mesh = ExtResource("19_rc20b")
+
+[node name="RoadCrossroadBarrier" type="MeshInstance3D" parent="."]
+mesh = ExtResource("20_qr4lx")
+
+[node name="RoadCrossroadLine" type="MeshInstance3D" parent="."]
+mesh = ExtResource("21_8ifwm")
+
+[node name="RoadCrossroadPath" type="MeshInstance3D" parent="."]
+mesh = ExtResource("22_ojd8m")
+
+[node name="RoadCurve" type="MeshInstance3D" parent="."]
+mesh = ExtResource("23_bx78g")
+
+[node name="RoadCurveBarrier" type="MeshInstance3D" parent="."]
+mesh = ExtResource("24_xyiro")
+
+[node name="RoadCurveIntersection" type="MeshInstance3D" parent="."]
+mesh = ExtResource("25_1vf84")
+
+[node name="RoadCurveIntersectionBarrier" type="MeshInstance3D" parent="."]
+mesh = ExtResource("26_vgfjm")
+
+[node name="RoadCurvePavement" type="MeshInstance3D" parent="."]
+mesh = ExtResource("27_bqvew")
+
+[node name="RoadDrivewayDouble" type="MeshInstance3D" parent="."]
+mesh = ExtResource("28_yor8e")
+
+[node name="RoadDrivewayDoubleBarrier" type="MeshInstance3D" parent="."]
+mesh = ExtResource("29_up1ue")
+
+[node name="RoadDrivewaySingle" type="MeshInstance3D" parent="."]
+mesh = ExtResource("30_eii45")
+
+[node name="RoadDrivewaySingleBarrier" type="MeshInstance3D" parent="."]
+mesh = ExtResource("31_pxtvp")
+
+[node name="RoadEnd" type="MeshInstance3D" parent="."]
+mesh = ExtResource("32_ec64m")
+
+[node name="RoadEndBarrier" type="MeshInstance3D" parent="."]
+mesh = ExtResource("33_ljduw")
+
+[node name="RoadIntersection" type="MeshInstance3D" parent="."]
+mesh = ExtResource("34_n87id")
+
+[node name="RoadIntersectionBarrier" type="MeshInstance3D" parent="."]
+mesh = ExtResource("35_ktf6o")
+
+[node name="RoadIntersectionLine" type="MeshInstance3D" parent="."]
+mesh = ExtResource("36_yr1ru")
+
+[node name="RoadIntersectionPath" type="MeshInstance3D" parent="."]
+mesh = ExtResource("37_1524c")
+
+[node name="RoadRoundabout" type="MeshInstance3D" parent="."]
+mesh = ExtResource("38_rsemd")
+
+[node name="RoadRoundaboutBarrier" type="MeshInstance3D" parent="."]
+mesh = ExtResource("39_8kk6k")
+
+[node name="RoadSide" type="MeshInstance3D" parent="."]
+mesh = ExtResource("40_d4ogo")
+
+[node name="RoadSideBarrier" type="MeshInstance3D" parent="."]
+mesh = ExtResource("41_gqkst")
+
+[node name="RoadSideEntry" type="MeshInstance3D" parent="."]
+mesh = ExtResource("42_pgn1f")
+
+[node name="RoadSideEntryBarrier" type="MeshInstance3D" parent="."]
+mesh = ExtResource("43_ky5ik")
+
+[node name="RoadSideExit" type="MeshInstance3D" parent="."]
+mesh = ExtResource("44_4mmgq")
+
+[node name="RoadSideExitBarrier" type="MeshInstance3D" parent="."]
+mesh = ExtResource("45_8ebjl")
+
+[node name="RoadSlant" type="MeshInstance3D" parent="."]
+mesh = ExtResource("46_t3es7")
+
+[node name="RoadSlantBarrier" type="MeshInstance3D" parent="."]
+mesh = ExtResource("47_phfhe")
+
+[node name="RoadSlantCurve" type="MeshInstance3D" parent="."]
+mesh = ExtResource("48_tpo8s")
+
+[node name="RoadSlantCurveBarrier" type="MeshInstance3D" parent="."]
+mesh = ExtResource("49_rfp2q")
+
+[node name="RoadSlantFlat" type="MeshInstance3D" parent="."]
+mesh = ExtResource("50_gffaf")
+
+[node name="RoadSlantFlatCurve" type="MeshInstance3D" parent="."]
+mesh = ExtResource("51_ivde0")
+
+[node name="RoadSlantFlatHigh" type="MeshInstance3D" parent="."]
+mesh = ExtResource("52_xhrpn")
+
+[node name="RoadSlantHigh" type="MeshInstance3D" parent="."]
+mesh = ExtResource("53_idxx1")
+
+[node name="RoadSlantHighBarrier" type="MeshInstance3D" parent="."]
+mesh = ExtResource("54_mul2l")
+
+[node name="RoadSplit" type="MeshInstance3D" parent="."]
+mesh = ExtResource("55_ctthc")
+
+[node name="RoadSplitBarrier" type="MeshInstance3D" parent="."]
+mesh = ExtResource("56_r01nu")
+
+[node name="RoadSquare" type="MeshInstance3D" parent="."]
+mesh = ExtResource("57_l1oxv")
+
+[node name="RoadSquareBarrier" type="MeshInstance3D" parent="."]
+mesh = ExtResource("58_w56cq")
+
+[node name="RoadStraight" type="MeshInstance3D" parent="."]
+mesh = ExtResource("59_pq5hf")
+
+[node name="RoadStraightBarrier" type="MeshInstance3D" parent="."]
+mesh = ExtResource("60_rybvo")
+
+[node name="RoadStraightBarrierEnd" type="MeshInstance3D" parent="."]
+mesh = ExtResource("61_o41r6")
+
+[node name="TileHigh" type="MeshInstance3D" parent="."]
+mesh = ExtResource("62_ts44n")
+
+[node name="TileLow" type="MeshInstance3D" parent="."]
+mesh = ExtResource("63_8b0ep")
+
+[node name="TileSlant" type="MeshInstance3D" parent="."]
+mesh = ExtResource("64_f3sig")
+
+[node name="TileSlantHigh" type="MeshInstance3D" parent="."]
+mesh = ExtResource("65_1h4m0")

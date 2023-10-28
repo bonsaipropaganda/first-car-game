@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bwsgaskawgc1e"
+path="res://.godot/imported/road_slantBarrier.obj-bfaa8a2651d9faa1c7bbf8b8ffffc73a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/road_slantBarrier.obj-bfaa8a2651d9faa1c7bbf8b8ffffc73a.mesh"]
+
+source_file="res://models/city models/road/road_slantBarrier.obj"
+dest_files=["res://.godot/imported/road_slantBarrier.obj-bfaa8a2651d9faa1c7bbf8b8ffffc73a.mesh", "res://.godot/imported/road_slantBarrier.obj-bfaa8a2651d9faa1c7bbf8b8ffffc73a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

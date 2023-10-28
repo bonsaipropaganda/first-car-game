@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dclx78glsmker"
+path="res://.godot/imported/road_curve.obj-42449b1ae2acfb7bf4e1239e0a77e1ba.mesh"
+
+[deps]
+
+files=["res://.godot/imported/road_curve.obj-42449b1ae2acfb7bf4e1239e0a77e1ba.mesh"]
+
+source_file="res://models/city models/road/road_curve.obj"
+dest_files=["res://.godot/imported/road_curve.obj-42449b1ae2acfb7bf4e1239e0a77e1ba.mesh", "res://.godot/imported/road_curve.obj-42449b1ae2acfb7bf4e1239e0a77e1ba.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

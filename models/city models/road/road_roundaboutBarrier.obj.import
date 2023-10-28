@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://csk1or53do31m"
+path="res://.godot/imported/road_roundaboutBarrier.obj-1a537c67aef06cb10093c2d622d5afa2.mesh"
+
+[deps]
+
+files=["res://.godot/imported/road_roundaboutBarrier.obj-1a537c67aef06cb10093c2d622d5afa2.mesh"]
+
+source_file="res://models/city models/road/road_roundaboutBarrier.obj"
+dest_files=["res://.godot/imported/road_roundaboutBarrier.obj-1a537c67aef06cb10093c2d622d5afa2.mesh", "res://.godot/imported/road_roundaboutBarrier.obj-1a537c67aef06cb10093c2d622d5afa2.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
