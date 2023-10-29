@@ -1,4 +1,4 @@
-[gd_scene load_steps=66 format=3 uid="uid://dhd8b8n4s4on6"]
+[gd_scene load_steps=67 format=3 uid="uid://dhd8b8n4s4on6"]
 
 [ext_resource type="ArrayMesh" uid="uid://cbslc5de8twy6" path="res://models/city models/road/bridge_pillar.obj" id="1_i0glc"]
 [ext_resource type="ArrayMesh" uid="uid://bvjpgw0uoiwuu" path="res://models/city models/road/bridge_pillarWide.obj" id="2_bgmhv"]
@@ -66,199 +66,271 @@
 [ext_resource type="ArrayMesh" uid="uid://ls7v4efj3yv" path="res://models/city models/road/tile_slant.obj" id="64_f3sig"]
 [ext_resource type="ArrayMesh" uid="uid://cixbdsyybs1mb" path="res://models/city models/road/tile_slantHigh.obj" id="65_1h4m0"]
 
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_3vfke"]
+points = PackedVector3Array(0.507937, 0.0238095, 0.507937, -0.507937, -0.0079334, -0.507937, -0.507937, 0.0238095, -0.507937, 0.507937, -0.0079334, -0.507937, -0.507937, -0.0079334, 0.507937, -0.507937, 0.0238095, 0.507937, 0.507937, 0.0238095, -0.507937, 0.507937, -0.0079334, 0.507937)
+
 [node name="MeshLibraryScene" type="Node3D"]
 
 [node name="BridgePillar" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("1_i0glc")
 
 [node name="BridgePillarWide" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("2_bgmhv")
 
 [node name="ConstructionBarrier" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("3_c3tsv")
 
 [node name="ConstructionLight" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("4_ovxki")
 
 [node name="ConstructionPylon" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("5_uasmx")
 
 [node name="LightCurved" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("6_acrwl")
 
 [node name="LightCurvedCross" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("7_073av")
 
 [node name="LightCurvedDouble" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("8_lfgxb")
 
 [node name="LightSquare" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("9_cw662")
 
 [node name="LightSquareCross" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("10_ewnh7")
 
 [node name="LightSquareDouble" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("11_nr2g4")
 
 [node name="RoadBend" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("12_dym40")
 
 [node name="RoadBendBarrier" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("13_b7dyk")
 
 [node name="RoadBendSidewalk" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("14_rurbx")
 
 [node name="RoadBendSquare" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("15_trmph")
 
 [node name="RoadBendSquareBarrier" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("16_5vg8j")
 
 [node name="RoadBridge" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("17_vvvx2")
 
 [node name="RoadCrossing" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("18_ktobd")
 
 [node name="RoadCrossroad" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("19_rc20b")
 
 [node name="RoadCrossroadBarrier" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("20_qr4lx")
 
 [node name="RoadCrossroadLine" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("21_8ifwm")
 
 [node name="RoadCrossroadPath" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("22_ojd8m")
 
 [node name="RoadCurve" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("23_bx78g")
 
 [node name="RoadCurveBarrier" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("24_xyiro")
 
 [node name="RoadCurveIntersection" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("25_1vf84")
 
 [node name="RoadCurveIntersectionBarrier" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("26_vgfjm")
 
 [node name="RoadCurvePavement" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("27_bqvew")
 
 [node name="RoadDrivewayDouble" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("28_yor8e")
 
 [node name="RoadDrivewayDoubleBarrier" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("29_up1ue")
 
 [node name="RoadDrivewaySingle" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("30_eii45")
 
 [node name="RoadDrivewaySingleBarrier" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("31_pxtvp")
 
 [node name="RoadEnd" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("32_ec64m")
 
 [node name="RoadEndBarrier" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("33_ljduw")
 
 [node name="RoadIntersection" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("34_n87id")
 
 [node name="RoadIntersectionBarrier" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("35_ktf6o")
 
 [node name="RoadIntersectionLine" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("36_yr1ru")
 
 [node name="RoadIntersectionPath" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("37_1524c")
 
 [node name="RoadRoundabout" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("38_rsemd")
 
 [node name="RoadRoundaboutBarrier" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("39_8kk6k")
 
 [node name="RoadSide" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("40_d4ogo")
 
 [node name="RoadSideBarrier" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("41_gqkst")
 
 [node name="RoadSideEntry" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("42_pgn1f")
 
 [node name="RoadSideEntryBarrier" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("43_ky5ik")
 
 [node name="RoadSideExit" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("44_4mmgq")
 
 [node name="RoadSideExitBarrier" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("45_8ebjl")
 
 [node name="RoadSlant" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("46_t3es7")
 
 [node name="RoadSlantBarrier" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("47_phfhe")
 
 [node name="RoadSlantCurve" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("48_tpo8s")
 
 [node name="RoadSlantCurveBarrier" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("49_rfp2q")
 
 [node name="RoadSlantFlat" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("50_gffaf")
 
 [node name="RoadSlantFlatCurve" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("51_ivde0")
 
 [node name="RoadSlantFlatHigh" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("52_xhrpn")
 
 [node name="RoadSlantHigh" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("53_idxx1")
 
 [node name="RoadSlantHighBarrier" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("54_mul2l")
 
 [node name="RoadSplit" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("55_ctthc")
 
 [node name="RoadSplitBarrier" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("56_r01nu")
 
 [node name="RoadSquare" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("57_l1oxv")
 
 [node name="RoadSquareBarrier" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("58_w56cq")
 
 [node name="RoadStraight" type="MeshInstance3D" parent="."]
 mesh = ExtResource("59_pq5hf")
 
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_3vfke")
+
 [node name="RoadStraightBarrier" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("60_rybvo")
 
 [node name="RoadStraightBarrierEnd" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("61_o41r6")
 
 [node name="TileHigh" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("62_ts44n")
 
 [node name="TileLow" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("63_8b0ep")
 
 [node name="TileSlant" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("64_f3sig")
 
 [node name="TileSlantHigh" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("65_1h4m0")
