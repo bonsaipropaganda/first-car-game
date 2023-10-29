@@ -1,4 +1,4 @@
-[gd_scene load_steps=67 format=3 uid="uid://dhd8b8n4s4on6"]
+[gd_scene load_steps=71 format=3 uid="uid://dhd8b8n4s4on6"]
 
 [ext_resource type="ArrayMesh" uid="uid://cbslc5de8twy6" path="res://models/city models/road/bridge_pillar.obj" id="1_i0glc"]
 [ext_resource type="ArrayMesh" uid="uid://bvjpgw0uoiwuu" path="res://models/city models/road/bridge_pillarWide.obj" id="2_bgmhv"]
@@ -66,6 +66,18 @@
 [ext_resource type="ArrayMesh" uid="uid://ls7v4efj3yv" path="res://models/city models/road/tile_slant.obj" id="64_f3sig"]
 [ext_resource type="ArrayMesh" uid="uid://cixbdsyybs1mb" path="res://models/city models/road/tile_slantHigh.obj" id="65_1h4m0"]
 
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_2iiee"]
+points = PackedVector3Array(0.317411, 0.0238095, -0.111074, -0.507937, -0.0079334, -0.507937, -0.507937, 0.0238095, -0.507937, -0.507937, -0.0079334, 0.507937, 0.507937, -0.0079334, 0.507937, -0.507937, 0.0238095, 0.507937, 0.507937, 0.0238095, 0.507937, 0.111074, -0.0079334, -0.317411, -0.0793527, 0.0238095, -0.428484, 0.428484, -0.0079334, 0.0793527, -0.222148, -0.0079334, -0.476116, 0.476116, 0.0238095, 0.222148, 0.111074, 0.0238095, -0.317411, 0.222148, -0.0079334, -0.222148, -0.365042, 0.0238095, -0.507937, 0.507937, -0.0079334, 0.365042, 0.0158109, -0.0079334, -0.380952, 0.428484, 0.0238095, 0.0793527, 0.380952, -0.0079334, -0.0158109, -0.365042, -0.0079334, -0.507937, 0.507937, 0.0238095, 0.365042, 0.222148, 0.0238095, -0.222148, -0.222148, 0.0238095, -0.476116, 0.476116, -0.0079334, 0.222148, -0.0793527, -0.0079334, -0.428484, 0.317411, -0.0079334, -0.111074, 0.0158109, 0.0238095, -0.380952, 0.380952, 0.0238095, -0.0158109, 0.492026, 0.0238095, 0.285689, -0.285689, -0.0079334, -0.492026, 0.492026, -0.0079334, 0.285689, -0.285689, 0.0238095, -0.492026)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ijj4x"]
+size = Vector3(1, 0.001, 1)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_6rvfp"]
+points = PackedVector3Array(0.507937, 0.0238095, 0.507937, -0.507937, -0.0079334, -0.507937, -0.507937, 0.0238095, -0.507937, 0.507937, -0.0079334, -0.507937, -0.507937, -0.0079334, 0.507937, -0.507937, 0.0238095, 0.507937, 0.507937, 0.0238095, -0.507937, 0.507937, -0.0079334, 0.507937)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_8jgrr"]
+points = PackedVector3Array(0.507937, 0.0238095, 0.507937, -0.507937, -0.0079334, -0.507937, -0.507937, 0.0238095, -0.507937, 0.507937, -0.0079334, -0.507937, -0.507937, -0.0079334, 0.507937, -0.507937, 0.0238095, 0.507937, 0.507937, 0.0238095, -0.507937, 0.507937, -0.0079334, 0.507937)
+
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_3vfke"]
 points = PackedVector3Array(0.507937, 0.0238095, 0.507937, -0.507937, -0.0079334, -0.507937, -0.507937, 0.0238095, -0.507937, 0.507937, -0.0079334, -0.507937, -0.507937, -0.0079334, 0.507937, -0.507937, 0.0238095, 0.507937, 0.507937, 0.0238095, -0.507937, 0.507937, -0.0079334, 0.507937)
 
@@ -119,6 +131,11 @@ mesh = ExtResource("11_nr2g4")
 visible = false
 mesh = ExtResource("12_dym40")
 
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadBend"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadBend/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_2iiee")
+
 [node name="RoadBendBarrier" type="MeshInstance3D" parent="."]
 visible = false
 mesh = ExtResource("13_b7dyk")
@@ -139,13 +156,32 @@ mesh = ExtResource("16_5vg8j")
 visible = false
 mesh = ExtResource("17_vvvx2")
 
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadBridge"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadBridge/StaticBody3D"]
+shape = SubResource("BoxShape3D_ijj4x")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="RoadBridge/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.527694, 0)
+shape = SubResource("BoxShape3D_ijj4x")
+
 [node name="RoadCrossing" type="MeshInstance3D" parent="."]
 visible = false
 mesh = ExtResource("18_ktobd")
 
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadCrossing"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadCrossing/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_6rvfp")
+
 [node name="RoadCrossroad" type="MeshInstance3D" parent="."]
 visible = false
 mesh = ExtResource("19_rc20b")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadCrossroad"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadCrossroad/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_8jgrr")
 
 [node name="RoadCrossroadBarrier" type="MeshInstance3D" parent="."]
 visible = false
@@ -304,6 +340,7 @@ visible = false
 mesh = ExtResource("58_w56cq")
 
 [node name="RoadStraight" type="MeshInstance3D" parent="."]
+visible = false
 mesh = ExtResource("59_pq5hf")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight"]
